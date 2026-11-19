@@ -1,4 +1,13 @@
-# ats-resume-check
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/header-ats-resume-check-dark.png">
+  <img alt="ats-resume-check, an open tool from B2B Content Systems" src=".github/assets/header-ats-resume-check-light.png">
+</picture>
+
+[![tests](https://github.com/bryanbartlett/ats-resume-check/actions/workflows/tests.yml/badge.svg)](https://github.com/bryanbartlett/ats-resume-check/actions/workflows/tests.yml)
+![python](https://img.shields.io/badge/python-3.10%2B-F2C400?style=flat-square&labelColor=0F1B2D)
+![requires](https://img.shields.io/badge/needs-poppler-F2C400?style=flat-square&labelColor=0F1B2D)
+![licence](https://img.shields.io/badge/licence-MIT-F2C400?style=flat-square&labelColor=0F1B2D)
+
 
 Find out if an applicant tracking system can read your résumé, before you send it.
 
@@ -51,3 +60,7 @@ python ats_resume_check.py --text resume.pdf   # also print what the ATS sees
 `pdftotext` stands in for a real ATS. Workday, Greenhouse and the others each use their own parser, so a clean result here lowers the risk; it does not remove it. Two-column layouts can still interleave in some parsers. When in doubt, send a one-column file.
 
 MIT licence.
+
+---
+
+An open tool from **B2B Content Systems**, Bryan Bartlett, Boston, MA. More at [github.com/bryanbartlett](https://github.com/bryanbartlett) and [bryanbartlett.com](https://bryanbartlett.com).
